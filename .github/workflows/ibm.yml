@@ -19,9 +19,9 @@ env:
   IBM_CLOUD_REGION: us-south
   ICR_NAMESPACE: ${{ secrets.ICR_NAMESPACE }}
   REGISTRY_HOSTNAME: us.icr.io
-  IMAGE_NAME: iks-smina
+  IMAGE_NAME: iks-test
   IKS_CLUSTER: crh1v75d0s8o03t0a2jg
-  DEPLOYMENT_NAME: iks-smina
+  DEPLOYMENT_NAME: iks-test
   PORT: 5001
 
 jobs:
